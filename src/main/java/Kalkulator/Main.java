@@ -24,7 +24,7 @@ public class Main {
     }
 
     private void run() throws Exception {
-        STDOUT.info("Welcome in my Calulator v.1.0.1 \n");
+        STDOUT.info("Welcome in my Calulator v.1.1 \n");
         do {
             Operacje operacje = printMenu();
             switch (operacje) {
@@ -80,9 +80,9 @@ public class Main {
     private static void doMNOZENIE() {
         Scanner wej = new Scanner(System.in);
         STDOUT.info("First number please:  \n");
-        zmienna1 = wej.nextInt();
+        zmienna1 = wej.nextLong();
         STDOUT.info("Second number please:  \n");
-        zmienna2 = wej.nextInt();
+        zmienna2 = wej.nextLong();
         long sum = zmienna1 * zmienna2;
         System.out.println(zmienna1 + " * " + zmienna2 + " = " + sum + "\n");
     }
@@ -90,9 +90,9 @@ public class Main {
     private static void doODEJMOWANIE() {
         Scanner wej = new Scanner(System.in);
         STDOUT.info("First number please:  \n");
-        zmienna1 = wej.nextInt();
+        zmienna1 = wej.nextLong();
         STDOUT.info("Second number please:  \n");
-        zmienna2 = wej.nextInt();
+        zmienna2 = wej.nextLong();
         long sum = zmienna1 - zmienna2;
         System.out.println(zmienna1 + " - " + zmienna2 + " = " + sum + "\n");
     }
@@ -100,9 +100,9 @@ public class Main {
     private static void doDODAWANIE() {
         Scanner wej = new Scanner(System.in);
         STDOUT.info("First number please:  \n");
-        zmienna1 = wej.nextInt();
+        zmienna1 = wej.nextLong();
         STDOUT.info("Second number please:  \n");
-        zmienna2 = wej.nextInt();
+        zmienna2 = wej.nextLong();
         long sum = zmienna1 + zmienna2;
         STDOUT.info(zmienna1 + " + " + zmienna2 + " = " + sum + "\n");
     }
