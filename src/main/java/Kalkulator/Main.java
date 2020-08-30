@@ -3,6 +3,7 @@ package Kalkulator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
@@ -20,7 +21,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Main main = new Main();
         main.run();
-
+        JFrame frame = new JFrame("Calculator v1.2");
     }
 
     private void run() throws Exception {
