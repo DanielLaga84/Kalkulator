@@ -8,5 +8,5 @@ v1.1. added few changes : - System out was changed onto STDOUT so it works bette
                           - added new branch
                           - now it is working constant and no errors. 
                           - added system when you push in main menu other than 0,1,2,3 it is leaving program with thanks. 
-                          
+                          - changed all numbers in scanners to nextLong()
  My plan is to make fully looking calculator. 
